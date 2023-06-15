@@ -1,12 +1,23 @@
 ## Q + A
 1. How do we assign a value to a variable?
+
+To assign a value to the variable. I need to use `=`.
+
 2. How do we change the value of a variable?
+
+Values of variables are updated as follows:
+someVariable = newValue;
+
 3. How do we assign an existing variable to a new variable?
+
+Existing variables are assigned to new variables as follows:
+someVariable = someOtherVariable;
+
 4. Remind me, what are declare, assign, and define?
 
 Declare is to let js know that there is a variable `let a;`
-To assign a value to the variable. I need to use `=`.
-For example: `let a = 0`
+Assignment refers to using `=` to bind a value to a variable.
+Variables can be defined with var, let, or const.
 
 ### Research 
 
@@ -21,6 +32,8 @@ Psuedocode allows us to break down problems into solvable peices that can be tra
 Psudocode is the bridge between our minds and the code. 
 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+
+According to ChatGPT `it is generally estimated that around 50-80% of a software developer's time is spent on coding, while the remaining 20-50% is spent on figuring out how to write code.`
 
 ## Strings
 
