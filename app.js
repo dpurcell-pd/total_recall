@@ -273,15 +273,13 @@ console.log(maxOfThree(22, 84, 5));
 
 //H.
 const printLongestWord = (strArray) => {
-   const strArraySorted = strArray.sort((a, b) => a.length - b.length);
-   const strArraySortedLastWord = strArraySorted[strArraySorted.length - 1];
-   const largestWordCount = strArraySortedLastWord.length;
-   for (let i = 0; i < strArraySorted.length; i++) {
-      if (strArraySorted[i].length == largestWordCount) {
-         return strArraySorted[i];
+   let longestWord = strArray[0];
+   for (let i = 0; i < strArray.length; i++) {
+      if (strArray[i].length > longestWord.length) {
+         longestWord = strArray[i];
      }
    }   
-   return strArraySortedLastWord;
+   return longestWord;
 }
 const arr = ['these', 'are', 'aaaaaaaaaaaaaaaa', 'words', 'different3', 'different2', 'lengths', 'diff'];
 console.log(printLongestWord(arr));
