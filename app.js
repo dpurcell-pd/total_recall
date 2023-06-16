@@ -337,7 +337,7 @@ const updateUser = () => {
 
 const oldAndLoud = (obj) => {
    obj.age++;
-   obj.name.toUpperCase;
+   obj.name.toUpperCase();
 }
 
 
